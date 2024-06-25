@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dark/Light Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="krejta">
+
+ 
+      <!-- Pjesa e majt -->
+      <div class="custom-clock-container">
+        <h1>Customise your clock</h1>
+        <p>Time is a canvas, and you are the artist. Customize your moments, and create a masterpiece every day.</p>
+        <label for="file">Please upload a photo which has this size 225px x 225px:</label>
+        <br>
+        <input type="file" id="file">
+
+        <button style=" font-family: monospace;
+        text-transform: uppercase;
+        outline: none;
+        padding: 0.5rem 1rem;
+        background-color: var(--main-bg-color);
+        color: var(--main-text-color);
+        border: 1px solid var(--main-text-color);
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition: all ease 0.3s;">Submit</button>
+      </div>
+
+
+    <!-- Pjesa e djatht-->
+    <div>
+      <div class="page-header">Analog Clock</div>
+
+      <div id="allclocks">
+        <!-- First clock -->
+        <div class="clock">
+          <div class="hour"></div>
+          <div class="min"></div>
+          <div class="sec"></div>
+        </div>
+  
+        <!-- Second clock -->
+        <div class="modern-clock">
+          <div class="hour-hand"></div>
+          <div class="min-hand"></div>
+          <div class="sec-hand"></div>
+        </div>
+      </div>
+  
+      <div class="digital-clock"></div>
+  
+      <!-- Buttons -->
+      <div class="switch-cont">
+        <a href="ora1.html">
+          <button class="switch-btn" id="theme-btn">PICK</button>
+        </a>
+        <a href="ora2.html">
+          <button class="switch-btn" id="show-time-btn">PICK</button>
+        </a>
+        
+       
+      </div>
+    </div>
+   
+  </div>
+  <!-- New Clock -->
+  <div class="clock3">
+    <div class="hour3"></div>
+    <div class="min3"></div>
+    <div class="sec3"></div>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
